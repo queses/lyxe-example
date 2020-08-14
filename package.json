@@ -1,0 +1,51 @@
+{
+  "name": "lyxe-example",
+  "version": "0.1.0",
+  "description": "LyxeJS Example Application",
+  "author": "MaxRattle <quesesr@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "do": "lyxe do",
+    "do:dbg": "lyxe do --dbg",
+    "start": "lyxe dev",
+    "dev": "lyxe dev",
+    "dbg": "lyxe dev --dbg",
+    "test": "lyxe test --only",
+    "test:watch": "lyxe test --watch",
+    "test:dbg": "lyxe test --dbg --only",
+    "do:prod": "cross-env NODE_ENV=production node dist/src/app/console.js",
+    "start:prod": "lyxe build && cross-env NODE_ENV=production node dist/src/app/web.js",
+    "build": "lyxe build",
+    "orm": "lyxe orm",
+    "orm:prod": "lyxe orm --prod=1",
+    "orm:test": "lyxe orm --test=1"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.0.7",
+    "@nestjs/core": "^7.0.7",
+    "@nestjs/platform-express": "^7.0.7",
+    "axios": "^0.19.0",
+    "date-fns": "^2.8.1",
+    "lyxe": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "request-ip": "^2.1.3",
+    "rxjs": "^6.5.5",
+    "sharp": "^0.22.0",
+    "typeorm": "^0.2.25",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.12.0",
+    "@types/sharp": "^0.22.2",
+    "@types/uuid": "^3.4.5",
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.19.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "prettier": "^2.0.4",
+    "sqlite3": "^5.0.0",
+    "typescript": "^3.8.3"
+  }
+}

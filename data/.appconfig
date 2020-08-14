@@ -1,0 +1,4 @@
+app.useLocalDevDb = boolean@DEV_USE_LOCAL_DB
+imageUpload.maxFileSize = 48000000
+imageUpload.resize.imageWidth = 1280
+imageUpload.resize.thumbWidth = 480

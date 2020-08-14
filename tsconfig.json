@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "incremental": true,
+    "esModuleInterop": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2018",
+    "inlineSourceMap": true,
+    "baseUrl": "./",
+    "strictPropertyInitialization": false,
+    "outDir": "./dist",
+    "paths": {
+      "src": [ "./src" ],
+      "lib": [ "./lib"]
+    }
+  },
+  "include": [ "./src", "./lib" ]
+}
