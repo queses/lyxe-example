@@ -24,7 +24,7 @@ Step 3. Go to `http://localhost:3000/api/example/hello` to get a greeting.
 
 Step 4. Run some tests:
 
-```
+```shell script
 yarn orm:test schema:sync  # init test database schema
 yarn test                  # run tests
 ```
