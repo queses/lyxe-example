@@ -2685,9 +2685,9 @@ lru-queue@0.1:
     es5-ext "~0.10.2"
 
 lyxe@^1.0.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/lyxe/-/lyxe-1.4.0.tgz#4fa0d0e2fe05e3778f730d5a0e213fc7af1f1068"
-  integrity sha512-U+AZ6XZey0agymFoGtI8cd79QNbtmzOuiWejnGxbqU6yjHGR0Lnc0gz9UaKwxyrgWvoYWrjnAbH02hEPQ8lumw==
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/lyxe/-/lyxe-1.4.2.tgz#48b1ccba7db1044c90e42e4f079d05941e306b80"
+  integrity sha512-OKT7Xdvgzti0QfqNjvlcayGYXUnsO5lrLzX90INRfav4X2nt2URDWcJCODj98YiJYT6+aEDhX3P1NGXWHKKRdg==
   dependencies:
     "@types/chai" "^4.2.11"
     "@types/chai-as-promised" "^7.1.2"
