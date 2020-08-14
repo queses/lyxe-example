@@ -12,7 +12,7 @@ export default () => {
   if (!AppEnv.inProduction && AppConfigurator.get('app.useLocalDevDb')) {
     PersistenceTypeormConfig.defaultConnectionParams({
       type: 'sqlite',
-      database: `${AppPathUtil.appData}/temp/dev.sqlite`
+      database: `${AppPathUtil.appData}/temp/${(AppEnv.inTest) ? 'test' : 'dev'}.sqlite`
     })
   }
 

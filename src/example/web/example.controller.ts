@@ -16,7 +16,7 @@ export class ExampleController {
 
   @Post('/')
   async createUser(@Body() dto: TAddExampleUserDto, @Req() req: Request) {
-    const user = await WebReqUtil.createUseCase(AddExampleUser, req).runFromDto(dto)
+    const user = await WebReqUtil.createContextService(AddExampleUser, req).runFromDto(dto)
     return {
       id: user.getId()
     }
@@ -24,7 +24,7 @@ export class ExampleController {
 
   @Get('/name/:name')
   async listByNameQuery(@Param('name') name: string, @Req() req: Request) {
-    const users = await WebReqUtil.createReadService(ExampleUserReadService, req).listByNameQuery(name)
+    const users = await WebReqUtil.createContextService(ExampleUserReadService, req).listByNameQuery(name)
     return users.map((user) => ({
       id: user.getId(),
       name: user.getName()

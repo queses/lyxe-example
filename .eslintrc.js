@@ -52,9 +52,13 @@ const buildRestrictedPaths = () => {
 
   return modules.map(module => {
     switch (module) {
-      case 'shared': return { 'target': './src/shared', 'from': './src', 'except': [ './shared' ] }
-      case 'core': return { 'target': `./src/core`, 'from': './src', 'except': [ './core', './shared' ] }
-      default: return { 'target': `./src/${module}`, 'from': './src', 'except': [ `./${module}`, './core', './shared' ] }
+      case 'shared':
+        return { 'target': './src/shared', 'from': './src', 'except': [ './shared', './lib' ] }
+      case 'core':
+      case 'lib':
+        return { 'target': `./src/${module}`, 'from': './src', 'except': [ './core', './shared', './lib' ] }
+      default:
+        return { 'target': `./src/${module}`, 'from': './src', 'except': [ `./${module}`, './core', './shared', './lib' ] }
     }
   })
 }

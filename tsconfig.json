@@ -10,11 +10,7 @@
     "inlineSourceMap": true,
     "baseUrl": "./",
     "strictPropertyInitialization": false,
-    "outDir": "./dist",
-    "paths": {
-      "src": [ "./src" ],
-      "lib": [ "./lib"]
-    }
+    "outDir": "./dist"
   },
-  "include": [ "./src", "./lib" ]
+  "include": [ "./src" ]
 }

@@ -7,7 +7,7 @@ import { ExampleUser } from '../domain/model/ExampleUser'
 
 describe('AddExampleUser', function () {
   itInTransaction('should add user', async function (sf) {
-    const user = await sf.createUseCase(AddExampleUser).run('Jake')
+    const user = await sf.createContextService(AddExampleUser).run('Jake')
     assert.instanceOf(user, ExampleUser)
 
     const repo = TestUtil.createRepo(ExampleUserRepoTkn, sf)
@@ -17,6 +17,6 @@ describe('AddExampleUser', function () {
   })
 
   itInTransaction('should not user with empty name', async function (sf) {
-    await assert.isRejected(sf.createUseCase(AddExampleUser).run(''))
+    await assert.isRejected(sf.createContextService(AddExampleUser).run(''))
   })
 })
