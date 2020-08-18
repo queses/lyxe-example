@@ -2685,9 +2685,9 @@ lru-queue@0.1:
     es5-ext "~0.10.2"
 
 lyxe@^1.0.0:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/lyxe/-/lyxe-1.4.2.tgz#48b1ccba7db1044c90e42e4f079d05941e306b80"
-  integrity sha512-OKT7Xdvgzti0QfqNjvlcayGYXUnsO5lrLzX90INRfav4X2nt2URDWcJCODj98YiJYT6+aEDhX3P1NGXWHKKRdg==
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/lyxe/-/lyxe-1.5.4.tgz#73cc8d15ee5aee7591e7ff61d41bc40bbb3eaa22"
+  integrity sha512-teR/KcgwW0alJqzF4OS1+/9kvnwGKbSYnDFMuGHPOWmWFBogH3w+O8sacipbJHMsrtBCbnkMskqDrAYEO2fEDw==
   dependencies:
     "@types/chai" "^4.2.11"
     "@types/chai-as-promised" "^7.1.2"
@@ -3504,9 +3504,9 @@ promise.allsettled@1.0.2:
     iterate-value "^1.0.0"
 
 property-expr@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-2.0.2.tgz#fff2a43919135553a3bc2fdd94bdb841965b2330"
-  integrity sha512-bc/5ggaYZxNkFKj374aLbEDqVADdYaLcFo8XBkishUWbaAdjlphaBFns9TvRA2pUseVL/wMFmui9X3IdNDU37g==
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-2.0.3.tgz#0a3fce936515da358aca0b74d5844a3dc34139bd"
+  integrity sha512-TEMKBo6s4gZUKmNYwaMkS2JdDxdWgUijW/U/jLAOHVyLZfU1KHXv+mC1J9gkfGOr8532XHqMJytko1lSjc0kmw==
 
 proxy-addr@~2.0.5:
   version "2.0.6"
@@ -4566,9 +4566,9 @@ unpipe@1.0.0, unpipe@~1.0.0:
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
 update-notifier@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/update-notifier/-/update-notifier-4.1.0.tgz#4866b98c3bc5b5473c020b1250583628f9a328f3"
-  integrity sha512-w3doE1qtI0/ZmgeoDoARmI5fjDoT93IfKgEGqm26dGUOh8oNpaSTsGNdYRN/SjOuo10jcJGwkEL3mroKzktkew==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/update-notifier/-/update-notifier-4.1.1.tgz#895fc8562bbe666179500f9f2cebac4f26323746"
+  integrity sha512-9y+Kds0+LoLG6yN802wVXoIfxYEwh3FlZwzMwpCZp62S2i1/Jzeqb9Eeeju3NSHccGGasfGlK5/vEHbAifYRDg==
   dependencies:
     boxen "^4.2.0"
     chalk "^3.0.0"
